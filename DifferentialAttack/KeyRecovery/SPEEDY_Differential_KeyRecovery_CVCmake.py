@@ -629,7 +629,7 @@ def main(fileName, p, SboxLocFirst, SboxValueFirst, SboxLocSecond, SboxValueSeco
     SCCVCPrint(fileName, "S", 1, 3)
 
     # End round
-    SboxCVCPrint_P_Print(fileName, "DDT", "S", 2, 0, 32, "P", 0)
+    SboxCVCPrint_P_Print(fileName, "FTDDT", "S", 2, 0, 32, "P", 0)
     SCCVCPrint(fileName, "S", 2, 1)
 
     # Assert SboxNum
